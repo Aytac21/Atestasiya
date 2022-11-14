@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(image.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.header {
+    width: 100%;
+}
+.lg{
+    display: inline-block;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-inline-end: 20px;
+}
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
